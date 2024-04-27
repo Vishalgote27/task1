@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 
-const page = () => {
+const Page = () => {
     const [first, setfirst] = useState([])
     const router = useRouter()
     const formData = JSON.parse(localStorage.getItem('formData', "vechileData"));
@@ -73,12 +73,7 @@ const page = () => {
         </div >
 
 
-
-
-
-
-
     </>
 }
 
-export default page
+export default Page

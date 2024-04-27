@@ -7,7 +7,7 @@ import { useFormik } from 'formik'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
-const page = () => {
+const Page = () => {
     const router = useRouter()
     const [vechile, setVechile] = useState({ category: "", })
 
@@ -41,4 +41,4 @@ const page = () => {
     </>
 }
 
-export default page 
+export default Page 
